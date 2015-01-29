@@ -19,6 +19,7 @@ if (file_exists(dirname(__FILE__) . '/local-config.php')) {
 	include(dirname(__FILE__) . '/local-config.php');
 }
 
+
 // Global DB config
 if (!defined('DB_NAME')) {
 	define('DB_NAME', 'click_admin');
