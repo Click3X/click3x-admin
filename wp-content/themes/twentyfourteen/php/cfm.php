@@ -13,7 +13,7 @@ if( $posts ): ?>
         $title = get_the_title();
         $assets = get_field('assets');
 
-        helper($assets);
+        // helper($assets);
 
         ?>
         <li>
